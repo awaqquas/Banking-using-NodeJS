@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+#home {
+    border-bottom: 1px solid cyan;
+    color: white;
+}
+
+#home:hover {
+    color: black;
+    background-color: cyan;
+    padding: 5px;
+}
+
+#head {
+    margin-top: 20px;
+    color: gold;
+    text-align: center;
+}
+
+#tb {
+    margin-top: 20px;
+}
+
+table,
+tr,
+th {
+    color: white;
+
+}
+
+tr:hover {
+    color: gold;
+}
+
+body {
+    background-image: url("../trnf.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#trbtn {
+    background-color: #31daa6;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+
+}
+
+#trbtn:hover,
+.trbtn:focus {
+    background-color: gold;
+}
+
+#tion {
+    margin-top: 40px;
+}
+
+#from {
+
+    color: black;
+}
+
+#to {
+
+    color: black;
+}
+
+.label {
+
+    color: rgb(49, 47, 51);
+
+    display: inline-block;
+
+}
+
+.modal-header {
+    background-color: rgb(171, 174, 164);
+}
+
+.modal-body {
+    background-color: rgb(171, 174, 164);
+}
+
+.modal-footer {
+    background-color: rgb(171, 174, 164);
+}
